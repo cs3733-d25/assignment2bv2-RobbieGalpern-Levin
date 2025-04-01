@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 1B</title>
+</head>
+<link rel="stylesheet" href="/public/mystyles.css">
+<body>
+    <nav>
+        <ul>
+            <li><a href="https://www.chess.com" target="_blank">Chess.com</a></li>
+            <li><a href="https://lichess.org" target="_blank">LiChess.com</a></li>
+            <li><a href="https://www.chessgames.com" target="_blank">ChessGames.com</a></li>
+        </ul>
+    </nav>
+    <h1>Name: Robbie Galpern-Levin, Hobby: Chess</h1>
+    <img src="/public/chessboard.webp" alt="Chessboard" width="300">
+    <p>Hi class, my name is Robbie. I'm a Sophomore CS & RBE major. I love to play and chess, pool and
+        video games. I also play on the WPI Ultimate Frisbee team. I'm excited to learn to be a software developer in this class.</p>
+    <p>My Chosen Hobby is chess. I've been playing chess since I was in kindergarten. It's an incredibly fun and complex board game. It requires</p>
+    <ul style="display: flex; flex-direction: column;">
+        <li>Concentration</li>
+        <li>Patience</li>
+        <li>Imagination</li>
+        <li>Calculations</li>
+        <li>Dedication</li>
+    </ul>
+    <table class="collapse">
+        <caption>My favorite Professional Chess players</caption>
+        <thead>
+        <tr>
+            <th>Name</th>
+            <th>Rating</th>
+            <th>Nationality</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>Magnus Carlsen</td>
+            <td>2833</td>
+            <td>Norway</td>
+        </tr>
+        <tr>
+            <td>Hikaru Nakamura</td>
+            <td>2802</td>
+            <td>USA</td>
+        </tr>
+        <tr>
+            <td>Gary Kasparov</td>
+            <td>2851</td>
+            <td>Russia</td>
+        </tr>
+        <tr>
+            <td>Wesley So</td>
+            <td>2748</td>
+            <td>USA</td>
+        </tr>
+        </tbody>
+    </table>
+    <h2>Now Tell me about your chess experience</h2>
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <br><br>
+
+        <label for="rating">USCF Rating:</label>
+        <input type="text" id="rating" name="rating" required>
+        <br><br>
+
+        <label for="team">On WPI Chess Team:</label>
+        <input type="checkbox" id="team" name="team">
+        <br><br>
+
+        <label for="coach">Have a Coach:</label>
+        <input type="checkbox" id="coach" name="coach">
+        <br><br>
+
+        <label for="improve">Looking to improve:</label>
+        <input type="checkbox" id="improve" name="improve">
+        <br><br>
+
+        <h3>Skill Level</h3>
+        <input type="radio" id="Beginner" name="Beginner" value="Beginner">
+        <label for="Beginner">Beginner</label><br>
+        <input type="radio" id="Intermediate" name="Intermediate" value="Intermediate">
+        <label for="Intermediate">Intermediate</label><br>
+        <input type="radio" id="Advanced" name="Advanced" value="Advanced">
+        <label for="Advanced">Advanced</label>
+        <br><br>
+
+        <label for="info">Any Other Info:</label><br>
+        <textarea id="info" name="info" rows="4" cols="50"></textarea><br><br>
+
+        <label for="format">Favorite Format:</label>
+        <select id="format" name="format">
+            <option value="bughouse">BugHouse</option>
+            <option value="classic">Classic</option>
+            <option value="chess960">Chess960</option>
+            <option value="crazy house">Crazy House</option>
+        </select><br><br>
+        <button type="submit">Submit</button>
+
+    </form>
+
+</body>
+</html>
