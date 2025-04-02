@@ -3,11 +3,61 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  color:#000033;
 }
 
-h1
+body {
+  background-color: #f0f8ff;
+  color: #000033;
+  font-family: "Verdana", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6
 {
   text-align: center;
-  color:darkgreen;
-  background-color:chartreuse;
+  color:#000033;
+}
+
+.collapse {
+  border-collapse: collapse;
+  width: 90%;
+}
+
+.collapse th, .collapse td {
+  border: 2px solid #ddd;
+  padding: 15px;
+  text-align: left;
+}
+
+.collapse th {
+  background-color: dodgerblue;
+  color: #000033;
+}
+
+.collapse tr:nth-child(even) {
+  background-color: lightblue;
+}
+
+nav {
+  background-color: #0A0A0A;
+  padding: 15px;
+}
+
+a {
+  text-decoration: none;
+  color: #000033;
+  font-size: 20px;
+}
+
+a:hover {
+  background-color: #000033;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 30px;
+}
+.grid-item {
+  height: auto
 }

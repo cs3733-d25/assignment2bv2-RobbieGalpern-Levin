@@ -1,0 +1,11 @@
+
+ol li:first-child {
+    font-weight: bold;
+    color: #FF0000;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
